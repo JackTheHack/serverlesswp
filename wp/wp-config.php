@@ -45,6 +45,10 @@ define( 'DB_CHARSET', 'utf8' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+define('FORCE_SSL_ADMIN', false);
+define( 'MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL );
+define('AUTOMATIC_UPDATER_DISABLED', true);        
+
 /**#@+
  * Authentication unique keys and salts.
  *
