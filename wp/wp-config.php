@@ -46,7 +46,6 @@ define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
 
 define('FORCE_SSL_ADMIN', false);
-define( 'MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL );
 define('AUTOMATIC_UPDATER_DISABLED', true);        
 
 define('WP_HOME','https://boisterous-dieffenbachia-a4d3ef.netlify.app');
